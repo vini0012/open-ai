@@ -1,4 +1,6 @@
 package com.poc.apiopenapi.http.data.request;
 
-public record ScienceFictionRequestDTO(String scenario) {
+import jakarta.validation.constraints.NotBlank;
+
+public record ScienceFictionRequestDTO(@NotBlank String scenario) {
 }
