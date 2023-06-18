@@ -9,14 +9,14 @@ public class Error {
 
     private final String code;
     private final String message;
-    private final String documentation;
+    private final String urlDocumentation;
 
     public Error(@NonNull String code, @NonNull String message, @NonNull String urlDocumentation) {
         this.code = code;
         this.message = message;
         HttpServletRequest request = ((ServletRequestAttributes) RequestContextHolder.currentRequestAttributes()).getRequest();
         String url = request.getRequestURL().toString().replace(request.getRequestURI(), "");
-        this.documentation = url + urlDocumentation;
+        this.urlDocumentation = url + urlDocumentation;
     }
 
     public String getCode() {
@@ -27,7 +27,7 @@ public class Error {
         return message;
     }
 
-    public String getDocumentation() {
-        return documentation;
+    public String getUrlDocumentation() {
+        return urlDocumentation;
     }
 }

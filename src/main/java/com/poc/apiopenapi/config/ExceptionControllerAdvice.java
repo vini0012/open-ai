@@ -33,7 +33,6 @@ public class ExceptionControllerAdvice {
                 .stream()
                 .map(fieldError -> fieldError.getField() + " " + fieldError.getDefaultMessage())
                 .collect(Collectors.joining());
-
         return new Error("400", message, urlDocumentation);
     }
 

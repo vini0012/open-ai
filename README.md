@@ -1,4 +1,4 @@
-# Apiopenapi
+# API Open AI
 
 ## Sobre
 
@@ -15,4 +15,8 @@ Matheus Peluca de Paula
 Reinaldo Oliveira Machado Junior
 Rodrigo da Silva Pimenta
 ```
+
+## Documentação da API
+
+Com o projeto rodando localmente acesse a [documentação completa](http://localhost:8080/api-documentation) da API. 
 

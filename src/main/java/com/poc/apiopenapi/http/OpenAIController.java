@@ -28,7 +28,7 @@ public interface OpenAIController {
                                             {
                                                 "errorCode": "400",
                                                 "message": "Parâmetro(s) inválido(s).",
-                                                "documentation": null
+                                                "urlDocumentation": "http://localhost:8080/api-documentation"
                                             }
                                             """
                             )
@@ -50,7 +50,7 @@ public interface OpenAIController {
                                             {
                                                 "errorCode": "400",
                                                 "message": "Parâmetro(s) inválido(s).",
-                                                "documentation": null
+                                                "urlDocumentation": "http://localhost:8080/api-documentation"
                                             }
                                             """
                             )
@@ -72,7 +72,7 @@ public interface OpenAIController {
                                             {
                                                 "errorCode": "400",
                                                 "message": "Parâmetro(s) inválido(s).",
-                                                "documentation": null
+                                                "urlDocumentation": "http://localhost:8080/api-documentation"
                                             }
                                             """
                             )
@@ -94,7 +94,7 @@ public interface OpenAIController {
                                             {
                                                 "errorCode": "400",
                                                 "message": "Parâmetro(s) inválido(s).",
-                                                "documentation": null
+                                                "urlDocumentation": "http://localhost:8080/api-documentation"
                                             }
                                             """
                             )
