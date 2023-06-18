@@ -1,4 +1,4 @@
-package com.poc.apiopenapi;
+package br.com.api.openai;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,6 @@
-package com.poc.apiopenapi.config;
+package br.com.api.openai.config;
 
-import com.poc.apiopenapi.http.data.response.Error;
+import br.com.api.openai.http.data.response.Error;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;

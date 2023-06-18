@@ -1,4 +1,4 @@
-package com.poc.apiopenapi.component;
+package br.com.api.openai.component;
 
 import com.theokanning.openai.completion.chat.ChatCompletionChoice;
 import com.theokanning.openai.completion.chat.ChatCompletionChunk;

@@ -1,9 +1,9 @@
-package com.poc.apiopenapi.http;
+package br.com.api.openai.http;
 
-import com.poc.apiopenapi.http.data.request.PoemRequestDTO;
-import com.poc.apiopenapi.http.data.request.ScienceFictionRequestDTO;
-import com.poc.apiopenapi.http.data.request.SynopsisRequestDTO;
-import com.poc.apiopenapi.http.data.request.TaleRequestDTO;
+import br.com.api.openai.http.data.request.PoemRequestDTO;
+import br.com.api.openai.http.data.request.ScienceFictionRequestDTO;
+import br.com.api.openai.http.data.request.SynopsisRequestDTO;
+import br.com.api.openai.http.data.request.TaleRequestDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.ExampleObject;

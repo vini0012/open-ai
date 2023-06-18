@@ -1,9 +1,9 @@
-package com.poc.apiopenapi.service;
+package br.com.api.openai.service;
 
-import com.poc.apiopenapi.http.data.request.PoemRequestDTO;
-import com.poc.apiopenapi.http.data.request.ScienceFictionRequestDTO;
-import com.poc.apiopenapi.http.data.request.SynopsisRequestDTO;
-import com.poc.apiopenapi.http.data.request.TaleRequestDTO;
+import br.com.api.openai.http.data.request.PoemRequestDTO;
+import br.com.api.openai.http.data.request.ScienceFictionRequestDTO;
+import br.com.api.openai.http.data.request.SynopsisRequestDTO;
+import br.com.api.openai.http.data.request.TaleRequestDTO;
 import org.springframework.stereotype.Service;
 
 @Service

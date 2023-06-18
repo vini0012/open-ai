@@ -1,4 +1,4 @@
-package com.poc.apiopenapi.http.data.request;
+package br.com.api.openai.http.data.request;
 
 import jakarta.validation.constraints.NotBlank;
 

@@ -1,4 +1,4 @@
-package com.poc.apiopenapi.config;
+package br.com.api.openai.config;
 
 import com.theokanning.openai.service.OpenAiService;
 import org.springframework.beans.factory.annotation.Value;

@@ -1,11 +1,11 @@
-package com.poc.apiopenapi.service.impl;
+package br.com.api.openai.service.impl;
 
-import com.poc.apiopenapi.http.data.request.PoemRequestDTO;
-import com.poc.apiopenapi.http.data.request.ScienceFictionRequestDTO;
-import com.poc.apiopenapi.http.data.request.SynopsisRequestDTO;
-import com.poc.apiopenapi.http.data.request.TaleRequestDTO;
-import com.poc.apiopenapi.service.CallOpenAiService;
-import com.poc.apiopenapi.component.ChatStreamComponent;
+import br.com.api.openai.http.data.request.PoemRequestDTO;
+import br.com.api.openai.http.data.request.ScienceFictionRequestDTO;
+import br.com.api.openai.http.data.request.SynopsisRequestDTO;
+import br.com.api.openai.http.data.request.TaleRequestDTO;
+import br.com.api.openai.service.CallOpenAiService;
+import br.com.api.openai.component.ChatStreamComponent;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatMessage;
 import com.theokanning.openai.completion.chat.ChatMessageRole;

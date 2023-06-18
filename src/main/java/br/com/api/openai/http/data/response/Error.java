@@ -1,4 +1,4 @@
-package com.poc.apiopenapi.http.data.response;
+package br.com.api.openai.http.data.response;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.lang.NonNull;

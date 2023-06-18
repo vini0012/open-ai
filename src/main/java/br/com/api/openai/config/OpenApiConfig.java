@@ -1,4 +1,4 @@
-package com.poc.apiopenapi.config;
+package br.com.api.openai.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

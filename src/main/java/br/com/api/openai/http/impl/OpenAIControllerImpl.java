@@ -1,11 +1,11 @@
-package com.poc.apiopenapi.http.impl;
+package br.com.api.openai.http.impl;
 
-import com.poc.apiopenapi.http.OpenAIController;
-import com.poc.apiopenapi.http.data.request.PoemRequestDTO;
-import com.poc.apiopenapi.http.data.request.ScienceFictionRequestDTO;
-import com.poc.apiopenapi.http.data.request.SynopsisRequestDTO;
-import com.poc.apiopenapi.http.data.request.TaleRequestDTO;
-import com.poc.apiopenapi.service.impl.CallOpenAiServiceImpl;
+import br.com.api.openai.http.OpenAIController;
+import br.com.api.openai.http.data.request.PoemRequestDTO;
+import br.com.api.openai.http.data.request.ScienceFictionRequestDTO;
+import br.com.api.openai.http.data.request.SynopsisRequestDTO;
+import br.com.api.openai.http.data.request.TaleRequestDTO;
+import br.com.api.openai.service.impl.CallOpenAiServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
