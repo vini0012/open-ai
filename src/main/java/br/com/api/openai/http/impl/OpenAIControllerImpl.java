@@ -5,6 +5,7 @@ import br.com.api.openai.http.data.request.PoemRequestDTO;
 import br.com.api.openai.http.data.request.ScienceFictionRequestDTO;
 import br.com.api.openai.http.data.request.SynopsisRequestDTO;
 import br.com.api.openai.http.data.request.TaleRequestDTO;
+import br.com.api.openai.service.CallOpenAiService;
 import br.com.api.openai.service.impl.CallOpenAiServiceImpl;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
@@ -15,7 +16,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @Tag(name = "API Endpoints")
 @RestController
 @RequestMapping(value = "/openai")
-public record OpenAIControllerImpl(CallOpenAiServiceImpl service) implements OpenAIController {
+public record OpenAIControllerImpl(CallOpenAiService service) implements OpenAIController {
 
     @Override
     @PostMapping(value = "/poem")
